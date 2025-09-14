@@ -30,7 +30,7 @@ services:
       - "LIBRARY_API_DB_HOST=library-api-db"
       - "LIBRARY_API_DB_NAME=${LIBRARY_API_DB_NAME:-library-api}"
       - "LIBRARY_API_DB_USER=${LIBRARY_API_DB_USER:-library-api}"
-      - "LIBRARY_API_DB_PASSWORD=${LIBRARY_API_DB_PASSWORD:-library-api}"
+      - "LIBRARY_API_DB_PASS=${LIBRARY_API_DB_PASS:-library-api}"
 
 volumes:
   library-api-db:
